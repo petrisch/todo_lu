@@ -1,1 +1,1 @@
-vim.api.nvim_create_user_command("Todo_lu", require("todo_lu").hello, {})
+vim.api.nvim_create_user_command("Todolu", require("todo_lu").hello, {})
