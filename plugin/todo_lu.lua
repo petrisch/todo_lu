@@ -1,1 +1,2 @@
-vim.api.nvim_create_user_command("Todolu", require("todo_lu").hello, {})
+vim.api.nvim_create_user_command("TodoToggle", require("todo_lu").todotoggle, {})
+vim.api.nvim_create_user_command("FindTodo", require("todo_lu").findtodo, {})
